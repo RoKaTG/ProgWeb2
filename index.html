@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Card Game</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div class="window" id="log-in-window">
+            <div class="window-head">Log In</div>
+            <div class="window-body">
+                <div class="log-in-subtitle">Input player name:</div>
+                <div class="log-in-display"></div>
+                <input type="text" id="log-in-name">
+                <div class="button" id="log-in-button">Log In</div>
+            </div>
+        </div>
+        <div class="game-holder">
+            <div class="board">
+                <div class="player-name" id="player-name-1"></div>
+                <div class="player-name" id="player-name-2"></div>
+                <div class="player-name" id="player-name-3"></div>
+                <div class="player-name" id="player-name-4"></div>
+
+                <div class="player-holder" id="player-1"></div>
+                <div class="player-holder" id="player-2"></div>
+                <div class="player-holder" id="player-3"></div>
+                <div class="player-holder" id="player-4"></div>
+                
+                <div class="button" id="center-button">Play</div>
+                <div class="center-button-mask"></div>
+            </div>
+            <div class="chat-holder">
+                <div class="chat"></div>
+                <div class="chat-input-holder">
+                    <input type="text" id="chat-input">
+                    <div class="chat-button">Send</div>
+                </div>
+            </div>
+        </div>
+        <div class="alert-mask"><div class="window" id="alert"></div></div>
+        <script type="text/javascript" src="node_modules/socket.io/client-dist/socket.io.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
