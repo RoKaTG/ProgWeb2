@@ -1,6 +1,6 @@
 # Jeu de carte
 ## La bataille :
-Bonjour, voici mon jeu de la bataille codé en javascript, html, css et php.
+Bonjour, voici mon jeu de la bataille codé en javascript, html, css et php par moi même YASSINE MSILINI
 Voici les conditions de lancement :
 
 - Télécharger nodeJS (notamment le commande prompt).
